@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores base da bandeira dos EUA */
+:root {
+  --azul-escuro: #3f88c5;
+  --vermelho-forte: #bf0a30;
+  --branco: #ffffff;
+  --azul-claro: #ececec;
+}
+
+body {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #d4d4d4;
+  line-height: 1.6;
+}
+
+header {
+  
+  background-color:  #1c4ac9;
+  padding: 1rem 0;
+}
+
+.menu {
+  
+  background-color:#ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  
+  background-color:   #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  
+  background-color: #bf0a30;
+}
+
+.container {
+  color: #1100ff;
+  background-color:#fc010191;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  text-align: justify;
+  background-size: contain;
+	background-position: center;
+  padding: 15vh 50vh;
+  
+}
+
+.container img{
+  
+  height:20vh;
+  width: 20vh;
+}
+.container .galeria{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  
+  text-align: center;
+  padding: 1rem;
+  background-color: #0055f3;
+  color: #ececec;
+  
+}

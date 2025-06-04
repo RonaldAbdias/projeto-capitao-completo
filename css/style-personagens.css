@@ -1,0 +1,64 @@
+@import url('base.css');
+.wdxl-lubrifont-tc-regular {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container{
+  background-image: url(../imagens/capitao.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.5vh 30vh;
+
+}
+
+.container h3{
+  color: rgb(0, 0, 0);
+}
+.galeria {
+  grid-template-rows: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 0vh;
+  width: 100%;
+
+}
+.galeria img {
+
+  margin-top: 0px;
+  width: 100%;
+  border: 0.2vh solid var(--vermelho-forte);
+  border-radius: 1vh;
+  transition: transform 0.2s ease;
+}
+.galeria img:hover {
+  transform: scale(1.05);
+}
+.personagens{
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  background-color: rgba(0, 0, 0, 0.753);
+  padding: 1vh;
+  height: auto;
+  font-size: small;
+  
+}
+.personagens h3{
+  
+  color: rgb(0, 81, 255);
+}
+.personagens p {
+  color: rgb(255, 253, 253);
+  
+}
+.personagens img{
+  width: 100%;
+  height: 30vh;
+  display:flex;
+  justify-content: center;
+
+  
+  
+}

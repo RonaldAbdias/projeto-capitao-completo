@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --azul-escuro: #3f88c5;
+  --vermelho-forte: #bf0a30;
+  --branco: #ffffff;
+  --azul-claro: #ececec;
+}
+
+body {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #080808;
+  line-height: 1.6;
+}
+
+header {
+  
+  background-color:  #1c4ac9;
+  padding: 1rem 0;
+}
+
+.menu {
+  
+  background-color:#ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: var(--azul-escuro);
+  background-color:   #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0,67vh;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  
+  background-color: #bf0a30;
+}
+
+.container {
+  color: #070707;
+  background-color:#d4d4d4;
+  background-image: url(../imagens/capitao.webp);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+	background-position: center;
+  margin-top:2vh;
+  margin-bottom: 0vh;
+	
+  min-height: 70vh;
+  
+}
+.container h1{
+  color: rgb(243, 5, 5);
+  
+}
+
+
+footer {
+  
+  text-align: center;
+  padding: 1rem;
+  background-color: #0055f3;
+  color: #ececec;
+  margin-top: 2vh;
+}
